@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Homework1 {
 
-    public List<Method> methods = Arrays.asList(String.class.getDeclaredMethods());
+    static List<Method> methods = Arrays.asList(String.class.getDeclaredMethods());
 
     /**
      * Prints the declared methods of java.lang.String sorted by name.
